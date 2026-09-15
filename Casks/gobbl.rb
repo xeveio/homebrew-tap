@@ -21,7 +21,7 @@ cask "gobbl" do
 
   zap trash: [
     "~/Library/Application Support/Gobbl",
-    "~/Library/Preferences/com.xeve.gobbl.plist",
     "~/Library/Caches/com.xeve.gobbl",
+    "~/Library/Preferences/com.xeve.gobbl.plist",
   ]
 end
