@@ -3,6 +3,7 @@
 Homebrew casks for apps by [Xeve](https://xeve.io).
 
 ```sh
+brew trust xeveio/tap        # Homebrew 7+ asks you to trust third-party taps once
 brew install --cask xeveio/tap/gobbl
 ```
 

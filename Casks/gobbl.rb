@@ -5,7 +5,7 @@ cask "gobbl" do
   url "https://dl.xeve.io/gobbl/Gobbl-#{version}.dmg"
   name "Gobbl"
   desc "Notch utility with a pet: file shelf, clipboard, music and more"
-  homepage "https://gobbl.xeve.io"
+  homepage "https://gobbl.xeve.io/"
 
   livecheck do
     url "https://dl.xeve.io/gobbl/appcast.xml"
@@ -13,7 +13,7 @@ cask "gobbl" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Gobbl.app"
 
@@ -21,7 +21,7 @@ cask "gobbl" do
 
   zap trash: [
     "~/Library/Application Support/Gobbl",
-    "~/Library/Preferences/com.xeve.gobbl.plist",
     "~/Library/Caches/com.xeve.gobbl",
+    "~/Library/Preferences/com.xeve.gobbl.plist",
   ]
 end
