@@ -1,6 +1,6 @@
 cask "gobbl" do
-  version "0.1.2"
-  sha256 "64a6e9eaf635374b873c771bcc3feaa68e1bb2133794ee2ca4b310188e7bc99b"
+  version "0.1.3"
+  sha256 "727d57798217254a789311160558ef16377021a14428821b451364734bbc3667"
 
   url "https://dl.xeve.io/gobbl/Gobbl-#{version}.dmg"
   name "Gobbl"
@@ -21,7 +21,7 @@ cask "gobbl" do
 
   zap trash: [
     "~/Library/Application Support/Gobbl",
-    "~/Library/Caches/com.xeve.gobbl",
     "~/Library/Preferences/com.xeve.gobbl.plist",
+    "~/Library/Caches/com.xeve.gobbl",
   ]
 end
