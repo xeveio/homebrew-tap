@@ -1,6 +1,6 @@
 cask "gobbl" do
-  version "0.1.5"
-  sha256 "a1be0f675192d40958f98f7f420f85a786860071c584f21911c66525d704c93b"
+  version "0.1.6"
+  sha256 "b7a144c7855db6b1c895d9ceaca22e3f24189174f616798fc7d7e73fbe142ada"
 
   url "https://dl.xeve.io/gobbl/Gobbl-#{version}.dmg"
   name "Gobbl"
